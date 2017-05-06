@@ -22,7 +22,10 @@ header p {
   margin-top: 0.5em;
 }
 
-.card {
+/**{
+  border: 1px solid;
+}
+*/.card {
   border: 1px solid #E5E5E5;
   margin-bottom: 20px;
 }
@@ -38,8 +41,40 @@ header p {
 .card-content h3 {
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.vlp {
+  line-height: .5em;
+}
+
+.video-link {
+  text-align: center;
+  font-size: 10px;
+}
+
+.card-content table {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 .card-content p {
   margin: 0.5em 0;
+  text-align: center;
+}
+
+.dollars {
+  display: inline-block;
+  /*text-align: center;*/
+  /*padding-bottom: 20px;*/
+}
+
+#yelpreview {
+  display: inline-block;
+  width: 230px;
+  height: 65px;
+  overflow: hidden;
 }
