@@ -1,11 +1,15 @@
 header {
   background-color: #E62117;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
   color: white;
 }
 
+main {
+  margin-top: 25px;
+}
+
 body, #black {
-  font-family: 'Noto Sans', sans-serif;;
+  font-family: 'Noto Sans', sans-serif;
   color: black;
 }
 
